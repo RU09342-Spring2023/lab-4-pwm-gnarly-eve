@@ -4,6 +4,16 @@
 /**
  * main.c
  * evelyn ll
+
+*       reminder:
+*       there's a 1kHz PWM signal with a duty cycle btwn 0% and 100%.
+ *      Upon the processor starting, PWM both of the on-board LEDs at a 50% duty cycle.
+ *      after that, the duty cycle of the LEDs should increase by 10%,
+ *      duty cycle should go back to 0% on the next button press.
+ *
+ *  Button 2.3 controls LED P1
+ *  Button 4.1 controls LED P6.6
+
  */
 
 #include <msp430.h>
