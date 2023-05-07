@@ -17,3 +17,14 @@ You will need to upload the .c file and a README explaining your code and any de
 
 ### Hints
 You will need to use the CCR registers in order to accomplish this. You may also want to use a second TIMER module to determine how fast your LED colors cycle.
+
+Section 1:
+Lines 26-89:
+- Includes main function for the program
+- P6.0-P6.2 are set as outputs to drive RGB LED. 
+- PWM Timer is set to switch color every 1s.
+
+Section 2:
+Lines 93-123:
+- Change the different color states moving from red, to green, to blue, and the colors in between.
+![pic1](https://user-images.githubusercontent.com/122996591/236655011-63fcaeef-b1da-4647-a706-34f6de645459.png)
