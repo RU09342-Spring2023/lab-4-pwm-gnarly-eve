@@ -10,3 +10,27 @@ The servo will need to be most likely powered from the power supply on the bench
 
 ## Deliverables
 You will need to upload the .c file and a README explaining your code and any design decisions made.
+
+Section 1:
+Lines 8-23 :
+- the main funtion and set up of the program
+![pic1](https://user-images.githubusercontent.com/122996591/236654872-93601645-760b-4420-8cd0-7896549d8fc1.png)
+
+Section 2:
+Lines 26-53:
+- P6.0 drives the DC motor. 
+- Buttons P2.3 and P4.1 rotate the motor.
+- Timer determines how fast the motor turns.
+![pic2](https://user-images.githubusercontent.com/122996591/236654870-4a513c41-7f2b-40b0-9177-16879a08c1b5.png)
+
+Section 3:
+Lines 58-80:
+- P2.3 will move servo left
+- P4.1 will move servo right. 
+![pic3](https://user-images.githubusercontent.com/122996591/236654866-d29fda7f-279d-4a3b-a7df-e4fa488a6e07.png)
+
+Section 4:
+Lines 86-95:
+- Reset PWM cycle
+![pic4](https://user-images.githubusercontent.com/122996591/236654861-432cea2e-2c12-4e98-97e1-6ac81cbee115.png)
+
